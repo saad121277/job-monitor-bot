@@ -10,28 +10,28 @@ settings:
   serper_stop_on_rate_limit: true
 
 keywords:
-  - '("LMIA" OR "Temporary Foreign Worker" OR "foreign workers")'
-  - '("visa sponsorship" OR "relocation" OR "recrutement international")'
-  - '("barber" OR "hairstylist" OR "parrucchiere" OR "peluquero" OR "coiffeur")'
+  - '"LMIA" ("Canada" OR "barber" OR "hairstylist" OR "driver" OR "cook" OR "welder")'
+  - '("visa sponsorship" OR "work permit" OR "relocation") ("Latvia" OR "Riga" OR "Spain" OR "Italy")'
+  - '("contrat" OR "recrutement" OR "Decreto Flussi" OR "origen") ("Espagne" OR "Italie" OR "Espagna" OR "Italia" OR "Maroc")'
 
 sites:
   - domain: "jobbank.gc.ca"
     name: "Canada Job Bank"
 
-  - domain: "anapec.org"
-    name: "ANAPEC International"
-
-  - domain: "arbeitnow.com"
-    name: "Arbeitnow Visa"
+  - domain: "cv.lv"
+    name: "Latvia CV.lv"
 
   - domain: "eures.europa.eu"
-    name: "EURES Europe"
+    name: "EURES (EU/Latvia/Spain/Italy)"
+
+  - domain: "anapec.org"
+    name: "ANAPEC Maroc"
 
   - domain: "dreamjob.ma"
-    name: "Dreamjob International"
+    name: "Dreamjob Maroc"
 
-  - domain: "es.indeed.com"
-    name: "Indeed Spain"
+  - domain: "infojobs.net"
+    name: "Spain InfoJobs"
 
-  - domain: "it.indeed.com"
-    name: "Indeed Italy"
+  - domain: "subito.it"
+    name: "Italy Subito"
